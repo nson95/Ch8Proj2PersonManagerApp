@@ -1,8 +1,8 @@
 package business;
 
-public class Employee {
+public class Employee extends Person {
 	String ssn;
-
+	
 	public Employee(String ssn) {
 		super();
 		this.ssn = ssn;
@@ -22,9 +22,7 @@ public class Employee {
 
 	@Override
 	public String toString() {
-		return "Employee [ssn=" + ssn + "]";
+			return "Social security #" +ssn;
 	}
-	
-	
-
 }
+					
