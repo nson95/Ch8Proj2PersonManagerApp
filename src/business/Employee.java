@@ -22,7 +22,7 @@ public class Employee {
 
 	@Override
 	public String toString() {
-		return "Employee [ssn=" + ssn + "]";
+		return "Social security #" +ssn;
 	}
 	
 	
