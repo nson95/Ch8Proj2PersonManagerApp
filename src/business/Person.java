@@ -1,8 +1,8 @@
 package business;
 
 public class Person {
-	private String firstname;
-	private String lastname;
+	public String firstname;
+	public String lastname;
 	
 	public Person(String firstname, String lastname) {
 		super();
